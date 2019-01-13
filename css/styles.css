@@ -1,0 +1,544 @@
+.carousel-caption {
+    color: white;
+}
+.carousel-indicators .notactive {
+  background-color:white;
+}
+.carousel-indicators .active {
+  background-color:#980000;
+}
+/* .carousel-control-prev {
+  left: 18%;
+  position: relative;
+}
+.carousel-control-next{
+    right: 18%;
+} */
+body {
+  background: url("../images/track.jpg");
+	background-repeat: repeat;
+}
+.box2 {
+  background: rgba(0, 0, 0, 0.8);
+  padding-left: 0;
+  padding-right: 0;
+}
+.box2 p {
+  background: white;
+  color: white;
+  text-align: left;
+  font-weight: 100;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+  padding: 1em;
+  padding-bottom: 3em;
+}
+/* CLASSES */
+/*classes*/
+.icons1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.icons1 img{
+  justify-content: center;
+  width: 5.5em;
+  height: auto;
+}
+.box3 p {
+  text-align:center;
+  color: white;
+}
+.p2:hover{
+  color: #980000;
+}
+.box4 {
+  justify-content: center;
+}
+.box4 p {
+  color: white;
+}
+.box3 {
+  padding: 0.5em;
+}
+.textbox {
+  background: rgba(0, 0, 0, 0.5);
+}
+h3 {
+  font-family: 'Righteous', cursive;
+  color:red;
+  font-weight: 100;
+  font-size: 2.5em;
+  background: black;
+  width:100%;
+}
+
+.classespage h3 {
+  background: white;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+.classespage .col-md {
+  padding: 0;
+}
+.rightsidetext {
+  text-align: right;
+}
+.box4 a{
+  color: white;
+}
+.box4 a:hover {
+  color: red
+}
+.classespage p {
+  font-weight: 100;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+.indexpage p {
+  color: black;
+  font-weight: 100;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+}
+/* clASSES ends*/
+.emailregisterbox {
+  display: flex;
+  justify-content: center;
+  background:white;
+  margin:0;
+  padding:0;
+  width: 100%;
+}
+.blackbox {
+  background:black;
+  width: 100%;
+  padding-bottom: 3em;
+}
+.form-control:focus {
+  color: #495057;
+    background-color: #fff;
+    border-color: black;
+    outline: 0;
+    box-shadow: 1px 0px black;
+}
+.coloredText {
+  color:red;
+}
+.btn-primary {
+  background: black;
+  border-color: black;
+}
+.btn-primary:hover {
+  background: #980000;
+  border-color: #980000;
+}
+
+.emailregisterbox p {
+  margin:0;
+  padding:1em;
+  font-family: 'Righteous', cursive;
+}
+
+.carousel-control-prev, .carousel-control-next{
+  width: 30%;
+}
+.carousel-item img {
+  border: 2px solid black;
+}
+.indexpage {
+  background: rgba(0, 0, 0, 0.4);
+  margin-top: 6em;
+
+}
+.classespage {
+  background: black;
+  margin-top: 6em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+
+}
+.instructorspage {
+  background: rgba(0, 0, 0, 0.4);
+  margin-top: 6em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+.aboutpage {
+  background: url("../images/weightlifter.jpg.jpg");
+  padding: 0;
+  margin: 0;
+  margin-top: 6em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-left: 0.9em;
+  margin-right: 0.9em;
+}
+.googlemap {
+  display:flex;
+  justify-content: center;
+  width: 100;
+  background: black;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+#googlemapselement {
+
+  border: 10px solid black;
+}
+
+.aboutbox , .aboutboxaddress, .aboutboxM{
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  align-items: flex-start;
+  text-align: left;
+  background: black;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.aboutbox3 {
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  align-items: flex-start;
+  text-align: left;
+  background: black;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+}
+.aboutbox3 img {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+}
+
+.aboutbox2 {
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  background: black;
+  padding-left: 0;
+  padding-right: 0;
+
+}
+
+
+.aboutbox p,.aboutbox2 p, .aboutboxaddress p , .aboutboxM p{
+  color: white;
+  text-align: left;
+  font-weight: 100;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+  background: black;
+  width:100%;
+  margin: 0;
+  margin-bottom: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.aboutbox h2,.aboutbox2 h2, .aboutboxaddress h2 , .aboutboxM h2{
+/*  color: #980000;*/
+  color:red;
+  font-weight: 100;
+  font-size: 3em;
+  background: black;
+  width:100%;
+  margin: 0;
+  margin-top: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+.aboutbox h4,.aboutbox2 h4, .aboutboxaddress h4 , .aboutboxM h4{
+/*  color: #980000;*/
+  color:red;
+  font-family: 'Righteous', cursive;
+  font-weight: 100;
+  font-size: 3em;
+  background: black;
+  text-align: left;
+  margin: 0;
+  width:100%;
+  margin-top: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.aboutbox h4 , .aboutboxM h4{
+  margin-top: 0em;
+}
+.aboutboxlasttext p {
+  padding-bottom: 5em;
+}
+.aboutbox .additionalpadding  {
+    padding-bottom: 2.9em;
+}
+
+#indexCarousel {
+  margin-bottom: 2em;
+  margin-top:2em;
+
+}
+
+
+.box2 {
+
+  padding-top: 1.5em;
+
+}
+/* --------- */
+a.nav-link.active{
+  color: #980000;
+}
+
+a.nav-link {
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Righteous', cursive;
+}
+.navbar-brand {
+  margin: 0;
+}
+#fafa {
+  color: white;
+  font-size: 1.5em;
+}
+.navbar-toggler-icon{
+  padding: 0;
+  margin: 0;
+  height: auto;
+  width: auto;
+}
+.logo {
+  width: 4em;
+  height: auto;
+}
+#socialmedias {
+  color: white;
+  font-size: 1.5em;
+  padding: 0.5em;
+}
+.twitterlogo:hover .fa-twitter:before {
+  color: darkturquoise;
+}
+.facebooklogo:hover .fa-facebook:before {
+  color: royalblue;
+}
+.instagramlogo:hover .fa-instagram:before {
+  color: orangered;
+}
+.logotext {
+  display:flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+	color: white;
+	font-size: 2.5em;
+	font-family: 'Righteous', cursive;
+	text-shadow:
+    -3px -3px 0 #980000,
+    3px -3px 0 #980000,
+    -3px 3px 0 #980000,
+    3px 3px 0 #980000;
+	margin: 0;
+	padding: 0;
+}
+h2 {
+  color:white;
+  font-family: 'Righteous', cursive;
+  font-size: 2em;
+}
+.navigation {
+  background: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.footer {
+  background: black;
+}
+.footer p {
+  color:white;
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+}
+.navbar-nav > li{
+  padding-left:4em;
+  padding-right:4em;
+}
+.footersocials {
+  display:flex;
+  align-content: center;
+  justify-content: flex-end;
+}
+
+.footertext {
+  display:flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+
+}
+.box2 a {
+  color:red;
+}
+.box2 a:hover {
+  color: #980000;
+}
+.footertext a {
+  color:white;
+}
+.footetext a:hover {
+  color: #980000;
+}
+.emptyspace {
+  background: rgba(0,0,0,0.5);
+  width: 100%;
+  padding: 1em;
+}
+.footertext p {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+.col-3 p {
+  font-size: 1em;
+}
+a:hover {
+  color:red;
+  text-decoration:none;
+}
+@media (max-width: 1200px){
+    .navbar li {
+        padding-left : 3em;
+        padding-right : 3em;
+    }
+}
+@media (max-width: 1100px){
+    .navbar li {
+        padding-left : 2em;
+        padding-right : 2em;
+    }
+}
+@media (max-width: 1000px){
+    .navbar li {
+        padding-left : 1em;
+        padding-right : 1em;
+    }
+}
+@media (max-width: 870px){
+    .navbar li {
+        padding-left : 0.5em;
+        padding-right : 0.5em;
+    }
+    a.nav-link {
+      font-size: 1.25em;
+    }
+}
+@media (max-width: 760px){
+    .navbar li {
+        padding-left : 0;
+        padding-right : 0;
+    }
+    a.nav-link {
+      font-size: 1.25em;
+    }
+}
+@media (max-width: 700px){
+    .navbar li {
+        padding-left : 0;
+        padding-right : 0;
+    }
+
+    a.nav-link {
+      font-size: 1.0em;
+    }
+}
+@media (max-width: 575px){
+    .footersocials {
+      display:flex;
+      align-content: center;
+      justify-content: center;
+    }
+    .footertext {
+      display:flex;
+      align-content: center;
+      justify-content: flex-start;
+      flex-direction:column;
+
+    }
+    .aboutbox h4,.aboutbox2 h4, .aboutboxaddress h4 , .aboutboxM h4{
+      font-size: 2em;
+    }
+    .aboutbox h2,.aboutbox2 h2, .aboutboxaddress h2 , .aboutboxM h2{
+      font-size: 2em;
+    }
+    .aboutbox p,.aboutbox2 p, .aboutboxaddress p , .aboutboxM p {
+        font-size: 1em;
+        padding-right: 2em;
+    }
+
+    .classespage p {
+      font-size: 1.0em;
+    }
+    .classespage h3 {
+      font-size: 2.0em;
+    }
+
+}
+
+@media (max-width: 400px){
+  .logotext {
+  	font-size: 2em;
+  }
+
+  .logo {
+    width: 3em;
+    height: auto;
+  }
+  .aboutpage {
+    margin-top: 4em;
+  }
+  .classespage {
+    margin-top: 4em;
+  }
+  .instructorspage {
+    margin-top: 4em;
+  }
+  .indexpage {
+    margin-top: 4em;
+  }
+
+}
+@media (max-width: 350px){
+  .logotext {
+  	font-size: 2em;
+  }
+  .logo {
+    width: 3em;
+    height: auto;
+  }
+
+}
+@media (max-width: 300px){
+  .logotext {
+  	font-size: 1.5em;
+  }
+  .logo {
+    width: 2.5em;
+    height: auto;
+  }
+  .classespage img {
+    width: 13em;
+    height:auto;
+  }
+}
